@@ -73,6 +73,10 @@ xdebug.remote_port = 9000
 xdebug.scream=0
 xdebug.cli_color=1
 xdebug.show_local_vars=1
+xdebug.remote_handler=dbgp
+xdebug.remote_autostart=1
+xdebug.idekey=vagrant     
+xdebug.remote_host=10.0.2.2
 
 ; var_dump display
 xdebug.var_display_max_depth = 5
